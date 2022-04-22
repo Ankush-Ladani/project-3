@@ -1,7 +1,66 @@
+.App{
+  background-color: rgb(108, 104, 104);
+}
 .airbnblogo {
   margin: 2rem;
 }
 .navbar {
   background: #ffffff;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main-div{
+  padding: 2rem;
+  width: 550px;
+  display: block;
+  margin: 2rem auto;
+  /* text-align: center; */
+}
+.img-div{
+  padding: 4rem 5rem;
+}
+.img22{
+  position: relative;
+  top: -1.5rem;
+  left: 1.5rem;
+}
+.img23{
+  position: relative;
+  left: 2rem;
+  top: 1.5rem;
+}
+.img24{
+  position: relative;
+  top: 1.6rem;
+  left: 20.5rem;
+}
+.img25{
+  position: relative;
+  left: 0.5rem;
+  top: 0.2rem;
+}
+.img26{
+  position: relative;
+  top: 1.2rem;
+  left: 1rem;
+}
+.img27{
+  position: relative;
+  top: -1.4rem;
+  left: 1.5rem;
+}
+.img28{
+  position: relative;
+  top: 4rem;
+}
+.img29{
+  position: relative;
+  left: 0.5rem;
+}
+.img30{
+  position: relative;
+  top: 1rem;
+  left: 1rem;
 }
