@@ -1,66 +1,154 @@
-.App{
+.App {
   background-color: rgb(108, 104, 104);
+  /* width: 550px; */
 }
 .airbnblogo {
   margin: 2rem;
 }
 .navbar {
+  z-index: 5;
   background: #ffffff;
-  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 2px 2.98256px 7.4564px rgba(0, 0, 0, 0.5); */
+  /* box-shadow: 10px 100px 7.4564px rgba(146, 6, 6, 1); */
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  z-index: 5;
 }
 
-.main-div{
+.main-div {
   padding: 2rem;
   width: 550px;
   display: block;
   margin: 2rem auto;
   /* text-align: center; */
 }
-.img-div{
+.img-div {
   padding: 4rem 5rem;
 }
-.img22{
+.img22 {
   position: relative;
   top: -1.5rem;
   left: 1.5rem;
 }
-.img23{
+.img23 {
   position: relative;
   left: 2rem;
   top: 1.5rem;
 }
-.img24{
+.img24 {
   position: relative;
   top: 1.6rem;
   left: 20.5rem;
 }
-.img25{
+.img25 {
   position: relative;
   left: 0.5rem;
   top: 0.2rem;
 }
-.img26{
+.img26 {
   position: relative;
   top: 1.2rem;
   left: 1rem;
 }
-.img27{
+.img27 {
   position: relative;
   top: -1.4rem;
   left: 1.5rem;
 }
-.img28{
+.img28 {
   position: relative;
   top: 4rem;
 }
-.img29{
+.img29 {
   position: relative;
   left: 0.5rem;
 }
-.img30{
+.img30 {
   position: relative;
   top: 1rem;
   left: 1rem;
+}
+.heading-2 {
+  font-size: 2rem;
+}
+.Info-div {
+  width: 300px;
+  /* margin-top: -2rem; */
+  margin: -2rem 2rem;
+}
+.para {
+  font-size: 16px;
+}
+.Main-div {
+  background-color: #ffffff;
+}
+
+#card-1 {
+  display: inline-block;
+  /* background-color: red; */
+}
+#card-2{
+  display: inline-block;
+  margin-left: -1rem;
+}
+#card-3{
+  position: absolute;
+  top: 600px;
+  left: 870px;
+  overflow: hidden;
+  /* display : inline-block; */
+}
+.image-12 {
+  padding-top: 3.5rem;
+  width: 176px;
+  height: 235px;
+  display: block;
+  margin-left: 2rem;
+  margin-right: 0rem;
+}
+.star {
+  width: 14px;
+  height: 14px;
+  padding-top: 1rem;
+  padding-right: 0.2rem;
+  margin-left: 2rem;
+  margin-right: 0rem;
+}
+.dot {
+  display: inline-block;
+  background-color: #918e9b;
+  border-radius: 50%;
+  height: 3px;
+  width: 3px;
+  position: relative;
+  top: -2px;
+}
+.light-text {
+  color: #918E9B;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 110%;
+  
+}
+.about-person{
+  font-size: 0.8rem;
+  margin-top: 7px;
+  margin-left: 2rem;
+  margin-right: 0rem;
+}
+.tag{
+  background-color: white;
+  border-radius: 2px;
+  padding: 0.5px 2px;
+  position: relative;
+  top: 80px;
+  left: 6px;
+  margin-left: 2rem;
+  margin-right: 0rem;
+}
+.price-tag{
+  margin-top: -0.8rem;
+  margin-left: 2rem;
+  margin-right: 0rem;
 }
